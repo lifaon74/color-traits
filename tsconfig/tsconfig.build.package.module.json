@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "importHelpers": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "sourceMap": false,
+    "outDir": "../../dist"
+  }
+}
